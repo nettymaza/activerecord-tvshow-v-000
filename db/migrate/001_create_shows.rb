@@ -8,5 +8,11 @@ class CreateShows < ActiveRecord::Migration
       t.integer :rating
     end
   end
+
+def self.highest_rating
+end
+
+
+
   
 end
